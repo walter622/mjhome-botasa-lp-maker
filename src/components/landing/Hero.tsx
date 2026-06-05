@@ -1,9 +1,22 @@
+import { useEffect, useState } from "react";
 import { CalendarDays, MapPin } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 import heroImg from "@/assets/hero-ambiente.jpg";
+import heroImg2 from "@/assets/hero-ambiente-2.jpg.asset.json";
 import seloAsset from "@/assets/bota-fora-logo.webp.asset.json";
 
+const SLIDES = [
+  { src: heroImg, alt: "Showroom MJ Home com móveis de alto padrão" },
+  { src: heroImg2.url, alt: "Ambiente MJ Home decorado" },
+];
+
+
 export function Hero() {
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const t = setInterval(() => setIdx((i) => (i + 1) % SLIDES.length), 5000);
+    return () => clearInterval(t);
+  }, []);
   return (
     <section id="top" className="relative pt-28 md:pt-32 pb-20 md:pb-28 overflow-hidden">
       <div
@@ -23,7 +36,7 @@ export function Hero() {
             <span className="italic text-gold">MJ Home</span>
             <br />
             Toda a loja com até{" "}
-            <span className="italic text-gold">60% OFF</span>.
+            <span className="italic text-gold">60% OFF</span>
           </h1>
 
           <p className="max-w-xl text-base md:text-lg text-foreground/75 leading-relaxed">
@@ -50,14 +63,29 @@ export function Hero() {
 
         <div className="relative">
           <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-white/30">
-            <img
-              src={heroImg}
-              alt="Showroom MJ Home com móveis de alto padrão"
-              className="size-full object-cover"
-              width={1280}
-              height={1600}
-            />
+            {SLIDES.map((s, i) => (
+              <img
+                key={i}
+                src={s.src}
+                alt={s.alt}
+                className={`absolute inset-0 size-full object-cover transition-opacity duration-700 ${i === idx ? "opacity-100" : "opacity-0"}`}
+                width={1280}
+                height={1600}
+                loading={i === 0 ? "eager" : "lazy"}
+              />
+            ))}
             <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+              {SLIDES.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  aria-label={`Slide ${i + 1}`}
+                  onClick={() => setIdx(i)}
+                  className={`h-1.5 rounded-full transition-all ${i === idx ? "w-8 bg-white" : "w-4 bg-white/40 hover:bg-white/70"}`}
+                />
+              ))}
+            </div>
           </div>
           <img
             src={seloAsset.url}

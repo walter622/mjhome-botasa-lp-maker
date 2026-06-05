@@ -8,7 +8,7 @@ export function Entrega() {
         <div className="space-y-7">
           <span className="text-[10px] tracking-[0.4em] uppercase text-foreground/55">Logística MJ Home</span>
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            Entrega própria, <span className="italic text-gold">rápida</span> e segura.
+            Entrega própria, <span className="italic text-gold">rápida</span> e segura
           </h2>
           <div className="gold-divider w-24" />
           <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-xl">
