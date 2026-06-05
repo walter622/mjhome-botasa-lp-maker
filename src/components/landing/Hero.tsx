@@ -1,9 +1,7 @@
 import { CalendarDays, MapPin } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 import heroImg from "@/assets/hero-ambiente.jpg";
-import selo from "@/assets/bota-fora-selo.png";
-
-const CIDADES = ["Campinas", "Moema · SP", "Paulínia", "Iguatemi Campinas"];
+import seloAsset from "@/assets/bota-fora-logo.webp.asset.json";
 
 export function Hero() {
   return (
@@ -40,20 +38,15 @@ export function Hero() {
             ou personalizados sob encomenda.
           </p>
 
-          <div className="flex flex-wrap gap-2.5">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-2 text-xs tracking-wider">
-              <CalendarDays className="size-3.5 text-gold" />
-              <span className="uppercase">09 · 10 · 11 · 12 Jul</span>
+          <div className="flex flex-col gap-2.5 max-w-md">
+            <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
+              <CalendarDays className="size-4 text-gold shrink-0" />
+              <span className="uppercase">Loja Moema: <strong className="text-foreground">11, 12 e 13 de Julho</strong></span>
             </div>
-            {CIDADES.map((c) => (
-              <div
-                key={c}
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-2 text-xs tracking-wider"
-              >
-                <MapPin className="size-3.5 text-gold" />
-                <span className="uppercase">{c}</span>
-              </div>
-            ))}
+            <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
+              <MapPin className="size-4 text-gold shrink-0" />
+              <span className="uppercase">Endereço: <strong className="text-foreground">Av. Jurucê, 488 – Moema</strong></span>
+            </div>
           </div>
 
           <div className="pt-2">
@@ -73,7 +66,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
           </div>
           <img
-            src={selo}
+            src={seloAsset.url}
             alt="Selo Bota Fora MJ Home com até 60% OFF"
             className="absolute -left-6 -bottom-8 md:-left-16 md:-bottom-10 w-44 md:w-72 drop-shadow-2xl"
             loading="eager"
