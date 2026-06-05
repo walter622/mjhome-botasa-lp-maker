@@ -7,10 +7,6 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-5 md:px-10 h-16 md:h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <img src={mjLogo.url} alt="MJ Home" className="size-10 md:size-12 object-contain" />
-          <div className="hidden sm:flex flex-col leading-tight">
-            <span className="text-[10px] tracking-[0.3em] text-foreground/60 uppercase">MJ Home</span>
-            <span className="text-xs tracking-[0.2em] text-foreground/70 uppercase">Bota Fora</span>
-          </div>
         </a>
 
         <nav className="hidden lg:flex items-center gap-9 text-xs tracking-[0.2em] uppercase text-foreground/70">
