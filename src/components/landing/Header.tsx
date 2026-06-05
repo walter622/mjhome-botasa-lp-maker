@@ -1,13 +1,12 @@
 import { CTAButton } from "./CTAButton";
+import mjLogo from "@/assets/mj-home-logo.webp.asset.json";
 
 export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/40">
       <div className="mx-auto max-w-7xl px-5 md:px-10 h-16 md:h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <div className="size-9 md:size-10 rounded-full border border-gold/60 flex items-center justify-center">
-            <span className="font-display text-gold text-base md:text-lg leading-none">MJ</span>
-          </div>
+          <img src={mjLogo.url} alt="MJ Home" className="size-10 md:size-12 object-contain" />
           <div className="hidden sm:flex flex-col leading-tight">
             <span className="text-[10px] tracking-[0.3em] text-gold/80 uppercase">MJ Home</span>
             <span className="text-xs tracking-[0.2em] text-foreground/70 uppercase">Bota Fora</span>
