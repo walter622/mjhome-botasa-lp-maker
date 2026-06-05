@@ -1,9 +1,7 @@
 import { CalendarDays, MapPin } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 import heroImg from "@/assets/hero-ambiente.jpg";
-import selo from "@/assets/bota-fora-selo.png";
-
-const CIDADES = ["Campinas", "Moema · SP", "Paulínia", "Iguatemi Campinas"];
+import seloAsset from "@/assets/bota-fora-logo.webp.asset.json";
 
 export function Hero() {
   return (
