@@ -40,38 +40,38 @@
 :root {
   --radius: 0.75rem;
 
-  /* MJ Home — preto + dourado */
-  --background: oklch(0.12 0.005 60);
-  --foreground: oklch(0.96 0.01 80);
-  --card: oklch(0.16 0.008 60);
-  --card-foreground: oklch(0.96 0.01 80);
-  --popover: oklch(0.16 0.008 60);
-  --popover-foreground: oklch(0.96 0.01 80);
+  /* Bota Fora MJ Home — preto, branco, cinza, dourado */
+  --background: oklch(0 0 0); /* #000000 */
+  --foreground: oklch(1 0 0); /* #ffffff */
+  --card: oklch(0.14 0 0);
+  --card-foreground: oklch(1 0 0);
+  --popover: oklch(0.14 0 0);
+  --popover-foreground: oklch(1 0 0);
 
-  --primary: oklch(0.78 0.12 80); /* gold */
-  --primary-foreground: oklch(0.14 0.005 60);
-  --secondary: oklch(0.22 0.008 60);
-  --secondary-foreground: oklch(0.96 0.01 80);
-  --muted: oklch(0.2 0.006 60);
-  --muted-foreground: oklch(0.7 0.02 80);
-  --accent: oklch(0.22 0.008 60);
-  --accent-foreground: oklch(0.96 0.01 80);
+  --primary: oklch(0.68 0.12 65); /* #cc9145 gold */
+  --primary-foreground: oklch(0 0 0);
+  --secondary: oklch(0.2 0 0);
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.18 0 0);
+  --muted-foreground: oklch(0.72 0 0); /* ~#afafaf */
+  --accent: oklch(0.2 0 0);
+  --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.6 0.22 25);
   --destructive-foreground: oklch(0.98 0.005 80);
-  --border: oklch(0.28 0.01 70);
-  --input: oklch(0.28 0.01 70);
-  --ring: oklch(0.78 0.12 80);
+  --border: oklch(0.72 0 0 / 0.25); /* gray #afafaf at low opacity */
+  --input: oklch(0.72 0 0 / 0.25);
+  --ring: oklch(0.68 0.12 65);
 
-  --gold: oklch(0.78 0.12 80);
-  --gold-soft: oklch(0.65 0.09 75);
+  --gold: oklch(0.68 0.12 65); /* #cc9145 */
+  --gold-soft: oklch(0.72 0 0); /* #afafaf as soft neutral accent */
 
   --whatsapp: oklch(0.68 0.18 145);
   --whatsapp-foreground: oklch(0.98 0.01 145);
 }
 
 .dark {
-  --background: oklch(0.12 0.005 60);
-  --foreground: oklch(0.96 0.01 80);
+  --background: oklch(0 0 0);
+  --foreground: oklch(1 0 0);
 }
 
 @layer base {
