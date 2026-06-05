@@ -25,7 +25,7 @@ export function Categorias() {
           {CATS.map((c) => (
             <div
               key={c}
-              className="px-6 py-3 rounded-full border border-gold/40 bg-gold/5 text-sm tracking-wide uppercase text-foreground/90 hover:bg-gold/15 transition-colors"
+              className="px-6 py-3 rounded-full border border-white/40 bg-white/5 text-sm tracking-wide uppercase text-foreground/90 hover:bg-white/15 transition-colors"
             >
               {c}
             </div>

@@ -11,9 +11,9 @@ const HIGHLIGHTS = [
 export function Ofertas() {
   return (
     <section id="ofertas" className="py-20 md:py-28 relative overflow-hidden">
-      <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-gold/[0.06] via-transparent to-gold/[0.06]" />
+      <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-white/[0.06] via-transparent to-white/[0.06]" />
       <div className="relative mx-auto max-w-5xl px-5 md:px-10">
-        <div className="rounded-3xl border border-gold/40 bg-background/70 backdrop-blur p-8 md:p-14 text-center space-y-7">
+        <div className="rounded-3xl border border-white/40 bg-background/70 backdrop-blur p-8 md:p-14 text-center space-y-7">
           
           <h2 className="font-display text-balance text-4xl md:text-6xl lg:text-7xl leading-[1.02]">
             Ofertas exclusivas do <br className="hidden md:block" />
@@ -27,7 +27,7 @@ export function Ofertas() {
                 key={label}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-card/60"
               >
-                <Icon className="size-5 text-gold shrink-0 mt-0.5" strokeWidth={1.6} />
+                <Icon className="size-5 text-foreground/70 shrink-0 mt-0.5" strokeWidth={1.6} />
                 <span className="text-sm md:text-[15px] text-foreground/85">{label}</span>
               </li>
             ))}

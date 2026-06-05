@@ -23,7 +23,7 @@ export function Jornada() {
   return (
     <section className="py-20 md:py-28 bg-card/40 border-y border-border/60">
       <div className="mx-auto max-w-6xl px-5 md:px-10 text-center space-y-6">
-        <span className="text-[10px] tracking-[0.4em] uppercase text-gold">Desde 2009</span>
+        <span className="text-[10px] tracking-[0.4em] uppercase text-foreground/55">Desde 2009</span>
         <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
           Nossa jornada: <span className="italic text-gold">15 anos</span> de história e confiança.
         </h2>
@@ -39,7 +39,7 @@ export function Jornada() {
         {ITENS.map(({ icon: Icon, title, text }) => (
           <div
             key={title}
-            className="group p-7 rounded-2xl border border-border bg-background/60 hover:border-gold/50 transition-colors"
+            className="group p-7 rounded-2xl border border-border bg-background/60 hover:border-white/50 transition-colors"
           >
             <Icon className="size-7 text-gold" strokeWidth={1.4} />
             <h3 className="mt-5 font-display text-2xl">{title}</h3>

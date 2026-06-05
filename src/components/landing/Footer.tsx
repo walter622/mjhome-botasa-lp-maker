@@ -31,7 +31,7 @@ export function Footer() {
                 href={`https://instagram.com/${ig.slice(1)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 hover:text-gold transition-colors"
+                className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
               >
                 <Instagram className="size-3.5" />
                 <span>{ig}</span>

@@ -8,11 +8,11 @@ export function Hero() {
     <section id="top" className="relative pt-28 md:pt-32 pb-20 md:pb-28 overflow-hidden">
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-40 top-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full border border-gold/15"
+        className="pointer-events-none absolute -right-40 top-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full border border-white/15"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-72 top-1/2 -translate-y-1/2 w-[1200px] h-[1200px] rounded-full border border-gold/10"
+        className="pointer-events-none absolute -right-72 top-1/2 -translate-y-1/2 w-[1200px] h-[1200px] rounded-full border border-white/10"
       />
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-16 items-center">
@@ -33,12 +33,12 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col gap-2.5 max-w-md">
-            <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
-              <CalendarDays className="size-4 text-gold shrink-0" />
+            <div className="inline-flex items-center gap-3 rounded-full border border-white/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
+              <CalendarDays className="size-4 text-foreground/70 shrink-0" />
               <span className="uppercase">Loja Moema: <strong className="text-foreground">26, 27 e 28 de Junho</strong></span>
             </div>
-            <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
-              <MapPin className="size-4 text-gold shrink-0" />
+            <div className="inline-flex items-center gap-3 rounded-full border border-white/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
+              <MapPin className="size-4 text-foreground/70 shrink-0" />
               <span className="uppercase">Endereço: <strong className="text-foreground">Av. Jurucê, 488 – Moema</strong></span>
             </div>
           </div>
@@ -49,7 +49,7 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-gold/30">
+          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-white/30">
             <img
               src={heroImg}
               alt="Showroom MJ Home com móveis de alto padrão"
