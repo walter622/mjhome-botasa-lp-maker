@@ -37,7 +37,7 @@ export function Depoimentos() {
               key={d.name}
               className="p-8 rounded-2xl border border-border bg-card/60 flex flex-col justify-between min-h-72"
             >
-              <span className="font-display text-6xl text-foreground/25 leading-none">"</span>
+              <span className="font-display text-6xl text-gold leading-none">"</span>
               <blockquote className="-mt-4 text-base md:text-lg text-foreground/85 leading-relaxed font-display italic">
                 {d.quote}
               </blockquote>
