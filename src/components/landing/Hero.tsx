@@ -1,7 +1,15 @@
+import { useEffect, useState } from "react";
 import { CalendarDays, MapPin } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 import heroImg from "@/assets/hero-ambiente.jpg";
+import heroImg2 from "@/assets/hero-ambiente-2.jpg.asset.json";
 import seloAsset from "@/assets/bota-fora-logo.webp.asset.json";
+
+const SLIDES = [
+  { src: heroImg, alt: "Showroom MJ Home com móveis de alto padrão" },
+  { src: heroImg2.url, alt: "Ambiente MJ Home decorado" },
+];
+
 
 export function Hero() {
   return (
