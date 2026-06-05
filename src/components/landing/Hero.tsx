@@ -1,65 +1,59 @@
-import { MapPin } from "lucide-react";
+import { CalendarDays, MapPin } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 import heroImg from "@/assets/hero-ambiente.jpg";
-import botaForaLogo from "@/assets/bota-fora-logo.webp.asset.json";
+import selo from "@/assets/bota-fora-selo.png";
+
+const CIDADES = ["Campinas", "Moema · SP", "Paulínia", "Iguatemi Campinas"];
 
 export function Hero() {
   return (
     <section id="top" className="relative pt-28 md:pt-32 pb-20 md:pb-28 overflow-hidden">
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-40 top-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full border border-foreground/10"
+        className="pointer-events-none absolute -right-40 top-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full border border-gold/15"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-72 top-1/2 -translate-y-1/2 w-[1200px] h-[1200px] rounded-full border border-foreground/5"
+        className="pointer-events-none absolute -right-72 top-1/2 -translate-y-1/2 w-[1200px] h-[1200px] rounded-full border border-gold/10"
       />
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-16 items-center">
         <div className="space-y-8">
-          <img
-            src={botaForaLogo.url}
-            alt="MJ Home Bota Fora — com até 60% OFF"
-            className="w-full max-w-md md:max-w-lg"
-          />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/40 bg-gold/5">
+            <span className="size-1.5 rounded-full bg-gold animate-pulse" />
+            <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold">
+              Edição 2026 · 09 a 12 de Julho
+            </span>
+          </div>
 
-          <h1 className="font-display text-balance text-[2.4rem] sm:text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-foreground">
+          <h1 className="font-display text-balance text-[2.6rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.02] text-foreground">
+            Bota Fora{" "}
+            <span className="italic text-gold">MJ Home</span>
+            <br />
             Toda a loja com até{" "}
-            <span className="italic">60% OFF</span>.
+            <span className="italic text-gold">60% OFF</span>.
           </h1>
 
           <p className="max-w-xl text-base md:text-lg text-foreground/75 leading-relaxed">
-            Condição inédita, válida somente para quem estiver no Grupo VIP do WhatsApp.
-            Móveis de alto padrão a pronta-entrega ou personalizados sob encomenda.
+            Condição inédita, válida somente nos dias <strong className="text-foreground">09, 10, 11 e 12 de Julho</strong>,
+            para quem estiver no Grupo VIP do WhatsApp. Móveis de alto padrão a pronta-entrega
+            ou personalizados sob encomenda.
           </p>
 
-          {/* Datas do evento — em destaque */}
-          <div className="rounded-2xl border border-foreground/30 bg-card/60 p-6 md:p-8">
-            <p className="text-[10px] md:text-xs tracking-[0.4em] uppercase text-foreground/60 mb-3">
-              Datas do evento
-            </p>
-            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 font-display leading-none">
-              <span className="text-5xl md:text-7xl lg:text-8xl">09</span>
-              <span className="text-3xl md:text-5xl text-foreground/40">·</span>
-              <span className="text-5xl md:text-7xl lg:text-8xl">10</span>
-              <span className="text-3xl md:text-5xl text-foreground/40">·</span>
-              <span className="text-5xl md:text-7xl lg:text-8xl">11</span>
-              <span className="text-3xl md:text-5xl text-foreground/40">·</span>
-              <span className="text-5xl md:text-7xl lg:text-8xl">12</span>
-              <span className="text-xl md:text-3xl tracking-wider uppercase ml-2 text-foreground/80">
-                de Julho
-              </span>
+          <div className="flex flex-wrap gap-2.5">
+            <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-2 text-xs tracking-wider">
+              <CalendarDays className="size-3.5 text-gold" />
+              <span className="uppercase">09 · 10 · 11 · 12 Jul</span>
             </div>
-
-            <div className="mt-6 pt-5 border-t border-border/60 flex items-start gap-3">
-              <MapPin className="size-5 text-foreground/80 mt-0.5 shrink-0" strokeWidth={1.6} />
-              <div className="text-sm md:text-base text-foreground/80 leading-relaxed">
-                <span className="block font-semibold text-foreground uppercase tracking-wider text-xs md:text-sm mb-1">
-                  Loja Moema
-                </span>
-                Av. Jurucê, 488 — Moema · São Paulo / SP
+            {CIDADES.map((c) => (
+              <div
+                key={c}
+                className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-2 text-xs tracking-wider"
+              >
+                <MapPin className="size-3.5 text-gold" />
+                <span className="uppercase">{c}</span>
               </div>
-            </div>
+            ))}
           </div>
 
           <div className="pt-2">
@@ -68,7 +62,7 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-foreground/20">
+          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-gold/30">
             <img
               src={heroImg}
               alt="Showroom MJ Home com móveis de alto padrão"
@@ -76,8 +70,14 @@ export function Hero() {
               width={1280}
               height={1600}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
           </div>
+          <img
+            src={selo}
+            alt="Selo Bota Fora MJ Home com até 60% OFF"
+            className="absolute -left-6 -bottom-8 md:-left-16 md:-bottom-10 w-44 md:w-72 drop-shadow-2xl"
+            loading="eager"
+          />
         </div>
       </div>
     </section>

@@ -40,30 +40,30 @@
 :root {
   --radius: 0.75rem;
 
-  /* MJ Home Bota Fora — preto + prata + branco */
-  --background: oklch(0 0 0);
-  --foreground: oklch(1 0 0);
-  --card: oklch(0.14 0 0);
-  --card-foreground: oklch(1 0 0);
-  --popover: oklch(0.14 0 0);
-  --popover-foreground: oklch(1 0 0);
+  /* MJ Home — preto + dourado */
+  --background: oklch(0.12 0.005 60);
+  --foreground: oklch(0.96 0.01 80);
+  --card: oklch(0.16 0.008 60);
+  --card-foreground: oklch(0.96 0.01 80);
+  --popover: oklch(0.16 0.008 60);
+  --popover-foreground: oklch(0.96 0.01 80);
 
-  --primary: oklch(0.75 0 0); /* silver #afafaf */
-  --primary-foreground: oklch(0 0 0);
-  --secondary: oklch(0.2 0 0);
-  --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.18 0 0);
-  --muted-foreground: oklch(0.75 0 0);
-  --accent: oklch(0.2 0 0);
-  --accent-foreground: oklch(1 0 0);
+  --primary: oklch(0.78 0.12 80); /* gold */
+  --primary-foreground: oklch(0.14 0.005 60);
+  --secondary: oklch(0.22 0.008 60);
+  --secondary-foreground: oklch(0.96 0.01 80);
+  --muted: oklch(0.2 0.006 60);
+  --muted-foreground: oklch(0.7 0.02 80);
+  --accent: oklch(0.22 0.008 60);
+  --accent-foreground: oklch(0.96 0.01 80);
   --destructive: oklch(0.6 0.22 25);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.28 0 0);
-  --input: oklch(0.28 0 0);
-  --ring: oklch(0.75 0 0);
+  --destructive-foreground: oklch(0.98 0.005 80);
+  --border: oklch(0.28 0.01 70);
+  --input: oklch(0.28 0.01 70);
+  --ring: oklch(0.78 0.12 80);
 
-  --gold: oklch(0.75 0 0); /* alias kept for components — agora prata */
-  --gold-soft: oklch(0.6 0 0);
+  --gold: oklch(0.78 0.12 80);
+  --gold-soft: oklch(0.65 0.09 75);
 
   --whatsapp: oklch(0.68 0.18 145);
   --whatsapp-foreground: oklch(0.98 0.01 145);

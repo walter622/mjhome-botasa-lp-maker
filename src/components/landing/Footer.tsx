@@ -1,6 +1,5 @@
 import { Instagram } from "lucide-react";
 import { CTAButton } from "./CTAButton";
-import mjLogo from "@/assets/mj-home-logo.webp.asset.json";
 
 const IGS = [
   "@mjhomeoficial",
@@ -14,9 +13,13 @@ export function Footer() {
     <footer className="border-t border-border/60 bg-background">
       <div className="mx-auto max-w-7xl px-5 md:px-10 py-16 md:py-20">
         <div className="text-center space-y-7">
-          <img src={mjLogo.url} alt="MJ Home" className="h-16 md:h-20 w-auto mx-auto" />
+          <div className="inline-flex items-center gap-3">
+            <div className="size-12 rounded-full border border-gold/60 flex items-center justify-center">
+              <span className="font-display text-gold text-lg leading-none">MJ</span>
+            </div>
+          </div>
           <h3 className="font-display text-3xl md:text-5xl text-balance leading-tight max-w-2xl mx-auto">
-            Garanta sua peça no <span className="italic">Bota Fora</span>.
+            Garanta sua peça no <span className="italic text-gold">Bota Fora</span>.
           </h3>
           <CTAButton size="lg" />
         </div>
@@ -29,7 +32,7 @@ export function Footer() {
                 href={`https://instagram.com/${ig.slice(1)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors"
+                className="inline-flex items-center gap-1.5 hover:text-gold transition-colors"
               >
                 <Instagram className="size-3.5" />
                 <span>{ig}</span>
