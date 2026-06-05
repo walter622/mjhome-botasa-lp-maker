@@ -10,12 +10,12 @@ interface CTAButtonProps {
 
 export function CTAButton({ className, size = "default" }: CTAButtonProps) {
   const sizes = {
-    default: "pl-1.5 pr-6 py-1.5 text-xs",
-    lg: "pl-2 pr-8 py-2 text-sm",
+    default: "pl-2 pr-7 py-2 text-sm",
+    lg: "pl-2.5 pr-10 py-2.5 text-base",
   };
   const iconSize = {
-    default: "size-10",
-    lg: "size-12",
+    default: "size-11",
+    lg: "size-14",
   };
   return (
     <a
