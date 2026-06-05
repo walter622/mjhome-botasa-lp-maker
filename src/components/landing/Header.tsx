@@ -21,7 +21,7 @@ export function Header() {
           <a href="#faq" className="hover:text-gold transition-colors">FAQ</a>
         </nav>
 
-        <CTAButton label="Grupo VIP" size="sm" className="hidden sm:inline-flex" />
+        <CTAButton size="sm" className="hidden sm:inline-flex" />
       </div>
     </header>
   );
