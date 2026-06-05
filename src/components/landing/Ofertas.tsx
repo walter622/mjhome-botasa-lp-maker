@@ -27,7 +27,7 @@ export function Ofertas() {
                 key={label}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-card/60"
               >
-                <Icon className="size-5 text-foreground/70 shrink-0 mt-0.5" strokeWidth={1.6} />
+                <Icon className="size-5 text-gold shrink-0 mt-0.5" strokeWidth={1.6} />
                 <span className="text-sm md:text-[15px] text-foreground/85">{label}</span>
               </li>
             ))}
