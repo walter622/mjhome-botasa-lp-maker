@@ -12,6 +12,11 @@ const SLIDES = [
 
 
 export function Hero() {
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const t = setInterval(() => setIdx((i) => (i + 1) % SLIDES.length), 5000);
+    return () => clearInterval(t);
+  }, []);
   return (
     <section id="top" className="relative pt-28 md:pt-32 pb-20 md:pb-28 overflow-hidden">
       <div
@@ -58,14 +63,29 @@ export function Hero() {
 
         <div className="relative">
           <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-white/30">
-            <img
-              src={heroImg}
-              alt="Showroom MJ Home com móveis de alto padrão"
-              className="size-full object-cover"
-              width={1280}
-              height={1600}
-            />
+            {SLIDES.map((s, i) => (
+              <img
+                key={i}
+                src={s.src}
+                alt={s.alt}
+                className={`absolute inset-0 size-full object-cover transition-opacity duration-700 ${i === idx ? "opacity-100" : "opacity-0"}`}
+                width={1280}
+                height={1600}
+                loading={i === 0 ? "eager" : "lazy"}
+              />
+            ))}
             <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+              {SLIDES.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  aria-label={`Slide ${i + 1}`}
+                  onClick={() => setIdx(i)}
+                  className={`h-1.5 rounded-full transition-all ${i === idx ? "w-8 bg-white" : "w-4 bg-white/40 hover:bg-white/70"}`}
+                />
+              ))}
+            </div>
           </div>
           <img
             src={seloAsset.url}
