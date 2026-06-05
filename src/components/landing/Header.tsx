@@ -8,17 +8,17 @@ export function Header() {
         <a href="#top" className="flex items-center gap-3">
           <img src={mjLogo.url} alt="MJ Home" className="size-10 md:size-12 object-contain" />
           <div className="hidden sm:flex flex-col leading-tight">
-            <span className="text-[10px] tracking-[0.3em] text-gold/80 uppercase">MJ Home</span>
+            <span className="text-[10px] tracking-[0.3em] text-foreground/60 uppercase">MJ Home</span>
             <span className="text-xs tracking-[0.2em] text-foreground/70 uppercase">Bota Fora</span>
           </div>
         </a>
 
         <nav className="hidden lg:flex items-center gap-9 text-xs tracking-[0.2em] uppercase text-foreground/70">
-          <a href="#sobre" className="hover:text-gold transition-colors">Sobre</a>
-          <a href="#diferenciais" className="hover:text-gold transition-colors">Diferenciais</a>
-          <a href="#ofertas" className="hover:text-gold transition-colors">Ofertas</a>
-          <a href="#lojas" className="hover:text-gold transition-colors">Lojas</a>
-          <a href="#faq" className="hover:text-gold transition-colors">FAQ</a>
+          <a href="#sobre" className="hover:text-white transition-colors">Sobre</a>
+          <a href="#diferenciais" className="hover:text-white transition-colors">Diferenciais</a>
+          <a href="#ofertas" className="hover:text-white transition-colors">Ofertas</a>
+          <a href="#lojas" className="hover:text-white transition-colors">Lojas</a>
+          <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
         </nav>
 
         <HeaderCTA className="hidden sm:inline-flex" />

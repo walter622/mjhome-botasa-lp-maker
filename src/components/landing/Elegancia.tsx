@@ -9,11 +9,11 @@ export function Elegancia() {
           <div className="aspect-[7/5] rounded-2xl overflow-hidden border border-border">
             <img src={img} alt="Sala de jantar elegante MJ Home" className="size-full object-cover" loading="lazy" />
           </div>
-          <div aria-hidden className="absolute -inset-3 -z-10 rounded-2xl border border-gold/20" />
+          <div aria-hidden className="absolute -inset-3 -z-10 rounded-2xl border border-white/20" />
         </div>
 
         <div className="order-1 lg:order-2 space-y-7">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-gold">MJ Home · Bota Fora</span>
+          <span className="text-[10px] tracking-[0.4em] uppercase text-foreground/55">MJ Home · Bota Fora</span>
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
             Sua casa com a <span className="italic text-gold">elegância</span> que você merece.
           </h2>

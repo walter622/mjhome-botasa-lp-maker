@@ -57,7 +57,7 @@ export function Lojas() {
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("MJ Home " + l.end)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="group rounded-2xl border border-border bg-card/60 hover:border-gold/50 hover:bg-card transition-colors overflow-hidden flex flex-col"
+              className="group rounded-2xl border border-border bg-card/60 hover:border-white/50 hover:bg-card transition-colors overflow-hidden flex flex-col"
             >
               <div className="aspect-[16/10] overflow-hidden">
                 <img
@@ -69,11 +69,11 @@ export function Lojas() {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start gap-2">
-                  <MapPin className="size-5 text-gold mt-0.5 shrink-0" strokeWidth={1.4} />
+                  <MapPin className="size-5 text-foreground/70 mt-0.5 shrink-0" strokeWidth={1.4} />
                   <h3 className="font-display text-xl leading-tight">{l.nome}</h3>
                 </div>
                 <p className="mt-3 text-sm text-foreground/70 leading-relaxed flex-1">{l.end}</p>
-                <div className="mt-5 pt-4 border-t border-border/60 flex items-center gap-2 text-xs tracking-wider text-foreground/60 group-hover:text-gold transition-colors">
+                <div className="mt-5 pt-4 border-t border-border/60 flex items-center gap-2 text-xs tracking-wider text-foreground/60 group-hover:text-white transition-colors">
                   <Instagram className="size-3.5" />
                   <span>{l.ig}</span>
                 </div>

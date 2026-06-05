@@ -9,7 +9,7 @@ export function Atendimento() {
           <div className="aspect-[7/5] rounded-2xl overflow-hidden border border-border">
             <img src={img} alt="Atendimento personalizado MJ Home" className="size-full object-cover" loading="lazy" />
           </div>
-          <div aria-hidden className="absolute -inset-3 -z-10 rounded-2xl border border-gold/20" />
+          <div aria-hidden className="absolute -inset-3 -z-10 rounded-2xl border border-white/20" />
         </div>
 
         <div className="order-1 lg:order-2 space-y-7">

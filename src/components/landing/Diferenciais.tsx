@@ -25,7 +25,7 @@ export function Diferenciais() {
               key={title}
               className="p-7 rounded-2xl border border-border bg-card/60 hover:bg-card transition-colors min-h-52"
             >
-              <Icon className="size-8 text-gold" strokeWidth={1.3} />
+              <Icon className="size-8 text-foreground/70" strokeWidth={1.3} />
               <h3 className="mt-5 font-display text-xl leading-tight">{title}</h3>
               <p className="mt-2 text-sm text-foreground/70 leading-relaxed">{text}</p>
             </div>
