@@ -6,7 +6,7 @@ export function Entrega() {
     <section className="py-20 md:py-28 bg-card/40 border-y border-border/60">
       <div className="mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="space-y-7">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-foreground/55">Logística MJ Home</span>
+          
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
             Entrega própria, <span className="italic text-gold">rápida</span> e segura
           </h2>
