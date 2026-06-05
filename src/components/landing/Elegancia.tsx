@@ -21,7 +21,7 @@ export function Elegancia() {
           <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-xl">
             Com móveis de alto padrão, a pronta-entrega ou personalizados sob encomenda.
             Somente durante o <strong className="text-foreground">Bota Fora MJ Home</strong> com
-            até 60% OFF em toda a loja, nos dias <strong className="text-foreground">09, 10, 11 e 12 de Julho</strong>.
+            até 60% OFF em toda a loja, nos dias <strong className="text-foreground">26, 27 e 28 de Junho</strong>.
           </p>
           <CTAButton />
         </div>
