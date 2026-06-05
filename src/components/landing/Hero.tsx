@@ -20,7 +20,7 @@ export function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/40 bg-gold/5">
             <span className="size-1.5 rounded-full bg-gold animate-pulse" />
             <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold">
-              Edição 2026 · 09 a 12 de Julho
+              Edição 2026 · 26, 27 e 28 de Junho
             </span>
           </div>
 
@@ -33,7 +33,7 @@ export function Hero() {
           </h1>
 
           <p className="max-w-xl text-base md:text-lg text-foreground/75 leading-relaxed">
-            Condição inédita, válida somente nos dias <strong className="text-foreground">09, 10, 11 e 12 de Julho</strong>,
+            Condição inédita, válida somente nos dias <strong className="text-foreground">26, 27 e 28 de Junho</strong>,
             para quem estiver no Grupo VIP do WhatsApp. Móveis de alto padrão a pronta-entrega
             ou personalizados sob encomenda.
           </p>
@@ -41,7 +41,7 @@ export function Hero() {
           <div className="flex flex-col gap-2.5 max-w-md">
             <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
               <CalendarDays className="size-4 text-gold shrink-0" />
-              <span className="uppercase">Loja Moema: <strong className="text-foreground">11, 12 e 13 de Julho</strong></span>
+              <span className="uppercase">Loja Moema: <strong className="text-foreground">26, 27 e 28 de Junho</strong></span>
             </div>
             <div className="inline-flex items-center gap-3 rounded-full border border-gold/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
               <MapPin className="size-4 text-gold shrink-0" />

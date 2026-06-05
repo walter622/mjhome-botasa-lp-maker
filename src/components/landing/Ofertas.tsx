@@ -2,7 +2,7 @@ import { CalendarDays, Store, Tag, CreditCard } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 
 const HIGHLIGHTS = [
-  { icon: CalendarDays, label: "09, 10, 11 e 12 de Julho" },
+  { icon: CalendarDays, label: "26, 27 e 28 de Junho" },
   { icon: Store, label: "Em todas as nossas unidades" },
   { icon: Tag, label: "Móveis com até 60% OFF em toda a loja" },
   { icon: CreditCard, label: "Pronta-entrega + parcelamento especial" },

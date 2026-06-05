@@ -1,5 +1,5 @@
 import { CTAButton } from "./CTAButton";
-import img from "@/assets/entrega.jpg";
+import imgAsset from "@/assets/entrega-caminhao.webp.asset.json";
 
 export function Entrega() {
   return (
@@ -20,7 +20,7 @@ export function Entrega() {
 
         <div className="relative">
           <div className="aspect-[7/5] rounded-2xl overflow-hidden border border-border">
-            <img src={img} alt="Equipe MJ Home realizando entrega cuidadosa" className="size-full object-cover" loading="lazy" />
+            <img src={imgAsset.url} alt="Caminhão de entrega MJ Home" className="size-full object-cover" loading="lazy" />
           </div>
           <div aria-hidden className="absolute -inset-3 -z-10 rounded-2xl border border-gold/20" />
         </div>
