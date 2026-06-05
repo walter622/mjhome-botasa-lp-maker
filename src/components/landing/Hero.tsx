@@ -66,7 +66,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
           </div>
           <img
-            src={selo}
+            src={seloAsset.url}
             alt="Selo Bota Fora MJ Home com até 60% OFF"
             className="absolute -left-6 -bottom-8 md:-left-16 md:-bottom-10 w-44 md:w-72 drop-shadow-2xl"
             loading="eager"
