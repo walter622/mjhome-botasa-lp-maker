@@ -17,12 +17,6 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-16 items-center">
         <div className="space-y-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/40 bg-gold/5">
-            <span className="size-1.5 rounded-full bg-gold animate-pulse" />
-            <span className="text-[10px] md:text-xs tracking-[0.3em] uppercase text-gold">
-              Edição 2026 · 26, 27 e 28 de Junho
-            </span>
-          </div>
 
           <h1 className="font-display text-balance text-[2.6rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.02] text-foreground">
             Bota Fora{" "}

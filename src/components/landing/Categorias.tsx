@@ -12,7 +12,7 @@ export function Categorias() {
   return (
     <section className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 md:px-10 text-center space-y-6">
-        <span className="text-[10px] tracking-[0.4em] uppercase text-gold">Curadoria completa</span>
+        
         <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
           Variedade de móveis <br className="hidden md:block" />e <span className="italic text-gold">decoração</span>.
         </h2>

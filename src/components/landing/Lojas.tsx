@@ -43,7 +43,7 @@ export function Lojas() {
     <section id="lojas" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 md:px-10">
         <div className="text-center space-y-5 mb-14">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-gold">5 unidades</span>
+          
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
             Endereços das lojas <span className="italic text-gold">MJ Home</span>.
           </h2>

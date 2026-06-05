@@ -13,7 +13,7 @@ export function Atendimento() {
         </div>
 
         <div className="order-1 lg:order-2 space-y-7">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-gold">Consultoria especializada</span>
+          
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
             Atendimento <span className="italic text-gold">personalizado</span>.
           </h2>

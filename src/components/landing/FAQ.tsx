@@ -22,7 +22,7 @@ export function FAQ() {
     <section id="faq" className="py-20 md:py-28 bg-card/40 border-y border-border/60">
       <div className="mx-auto max-w-3xl px-5 md:px-10">
         <div className="text-center space-y-5 mb-12">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-gold">FAQ</span>
+          
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
             Perguntas <span className="italic text-gold">frequentes</span>.
           </h2>
