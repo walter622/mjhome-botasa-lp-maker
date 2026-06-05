@@ -1,4 +1,4 @@
-import { CTAButton } from "./CTAButton";
+import { HeaderCTA } from "./CTAButton";
 import mjLogo from "@/assets/mj-home-logo.webp.asset.json";
 
 export function Header() {
@@ -21,7 +21,7 @@ export function Header() {
           <a href="#faq" className="hover:text-gold transition-colors">FAQ</a>
         </nav>
 
-        <CTAButton size="sm" className="hidden sm:inline-flex" />
+        <HeaderCTA className="hidden sm:inline-flex" />
       </div>
     </header>
   );

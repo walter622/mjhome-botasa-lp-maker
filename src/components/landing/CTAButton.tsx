@@ -5,19 +5,17 @@ export const WHATSAPP_URL = "#";
 
 interface CTAButtonProps {
   className?: string;
-  size?: "default" | "lg" | "sm";
+  size?: "default" | "lg";
 }
 
 export function CTAButton({ className, size = "default" }: CTAButtonProps) {
   const sizes = {
-    sm: "pl-2 pr-5 py-2 text-[10px]",
-    default: "pl-2 pr-7 py-2.5 text-xs",
-    lg: "pl-2.5 pr-9 py-3 text-xs md:text-sm",
+    default: "pl-1.5 pr-6 py-1.5 text-xs",
+    lg: "pl-2 pr-8 py-2 text-sm",
   };
   const iconSize = {
-    sm: "size-7",
-    default: "size-9",
-    lg: "size-11",
+    default: "size-10",
+    lg: "size-12",
   };
   return (
     <a
@@ -25,18 +23,39 @@ export function CTAButton({ className, size = "default" }: CTAButtonProps) {
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "group inline-flex items-center gap-3 rounded-full bg-whatsapp text-whatsapp-foreground font-bold uppercase tracking-wider shadow-[0_0_40px_-8px_oklch(0.68_0.18_145/0.6)] hover:shadow-[0_0_60px_-6px_oklch(0.68_0.18_145/0.8)] transition-all hover:scale-[1.02]",
+        "group inline-flex items-center gap-3 rounded-full bg-whatsapp text-whatsapp-foreground uppercase shadow-[0_8px_30px_-8px_oklch(0.68_0.18_145/0.7)] hover:shadow-[0_10px_40px_-6px_oklch(0.68_0.18_145/0.9)] transition-all hover:scale-[1.02]",
         sizes[size],
         className,
       )}
     >
       <span className={cn("inline-flex items-center justify-center rounded-full bg-white text-whatsapp shrink-0", iconSize[size])}>
-        <MessageCircle className="size-[55%]" strokeWidth={2.4} fill="currentColor" stroke="white" />
+        <MessageCircle className="size-[58%]" strokeWidth={0} fill="currentColor" />
       </span>
-      <span className="flex flex-col leading-tight text-left">
-        <span className="font-semibold">Clique e entre no grupo</span>
+      <span className="flex flex-col leading-[1.15] text-left tracking-wide">
+        <span className="font-medium">Clique e entre no grupo</span>
         <span className="font-extrabold">exclusivo do WhatsApp!</span>
       </span>
+    </a>
+  );
+}
+
+interface HeaderCTAProps {
+  className?: string;
+}
+
+export function HeaderCTA({ className }: HeaderCTAProps) {
+  return (
+    <a
+      href={WHATSAPP_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={cn(
+        "inline-flex items-center justify-center gap-2 rounded-full bg-whatsapp text-whatsapp-foreground font-semibold uppercase tracking-wider px-5 py-2.5 text-xs shadow-[0_0_30px_-8px_oklch(0.68_0.18_145/0.6)] hover:scale-[1.02] transition-transform",
+        className,
+      )}
+    >
+      <MessageCircle className="size-4" strokeWidth={2.2} />
+      <span>Grupo VIP</span>
     </a>
   );
 }
