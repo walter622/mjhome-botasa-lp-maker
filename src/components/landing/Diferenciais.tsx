@@ -12,7 +12,7 @@ export function Diferenciais() {
     <section id="diferenciais" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 md:px-10">
         <div className="max-w-2xl space-y-5">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-gold">Nossos diferenciais</span>
+          
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
             O que torna a MJ Home <span className="italic text-gold">única</span>.
           </h2>

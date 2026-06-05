@@ -14,7 +14,7 @@ export function Ofertas() {
       <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-gold/[0.06] via-transparent to-gold/[0.06]" />
       <div className="relative mx-auto max-w-5xl px-5 md:px-10">
         <div className="rounded-3xl border border-gold/40 bg-background/70 backdrop-blur p-8 md:p-14 text-center space-y-7">
-          <span className="text-[10px] tracking-[0.4em] uppercase text-gold">Condição inédita</span>
+          
           <h2 className="font-display text-balance text-4xl md:text-6xl lg:text-7xl leading-[1.02]">
             Ofertas exclusivas do <br className="hidden md:block" />
             <span className="italic text-gold">Bota Fora</span>.

@@ -1,5 +1,6 @@
 import { Instagram } from "lucide-react";
 import { CTAButton } from "./CTAButton";
+import botaForaLogo from "@/assets/bota-fora-logo.webp.asset.json";
 
 const IGS = [
   "@mjhomeoficial",
@@ -13,10 +14,8 @@ export function Footer() {
     <footer className="border-t border-border/60 bg-background">
       <div className="mx-auto max-w-7xl px-5 md:px-10 py-16 md:py-20">
         <div className="text-center space-y-7">
-          <div className="inline-flex items-center gap-3">
-            <div className="size-12 rounded-full border border-gold/60 flex items-center justify-center">
-              <span className="font-display text-gold text-lg leading-none">MJ</span>
-            </div>
+          <div className="inline-flex items-center justify-center">
+            <img src={botaForaLogo.url} alt="Bota Fora MJ Home" className="h-16 md:h-20 w-auto" />
           </div>
           <h3 className="font-display text-3xl md:text-5xl text-balance leading-tight max-w-2xl mx-auto">
             Garanta sua peça no <span className="italic text-gold">Bota Fora</span>.
