@@ -52,17 +52,17 @@
   --primary-foreground: oklch(0 0 0);
   --secondary: oklch(0.2 0 0);
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.18 0 0);
-  --muted-foreground: oklch(0.68 0.12 65); /* gold as soft text */
-  --accent: oklch(0.72 0 0); /* gray accent */
+  --muted: oklch(0.16 0 0);
+  --muted-foreground: oklch(0.72 0 0); /* gray #afafaf for soft text */
+  --accent: oklch(0.72 0 0);
   --accent-foreground: oklch(0 0 0);
   --destructive: oklch(0.6 0.22 25);
   --destructive-foreground: oklch(0.98 0.005 80);
-  --border: oklch(0.68 0.12 65 / 0.45); /* gold borders */
-  --input: oklch(0.68 0.12 65 / 0.45);
-  --ring: oklch(1 0 0);
+  --border: oklch(0.72 0 0 / 0.3); /* gray borders */
+  --input: oklch(0.72 0 0 / 0.3);
+  --ring: oklch(0.72 0 0);
 
-  --gold: oklch(0.68 0.12 65); /* #cc9145 — borders + soft text */
+  --gold: oklch(0.68 0.12 65); /* #cc9145 — used sparingly as accent */
   --gold-soft: oklch(0.72 0 0); /* #afafaf */
 
   --whatsapp: oklch(0.68 0.18 145);
