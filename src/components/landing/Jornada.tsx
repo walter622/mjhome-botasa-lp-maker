@@ -41,7 +41,7 @@ export function Jornada() {
             key={title}
             className="group p-7 rounded-2xl border border-border bg-background/60 hover:border-white/50 transition-colors"
           >
-            <Icon className="size-7 text-foreground/70" strokeWidth={1.4} />
+            <Icon className="size-7 text-gold" strokeWidth={1.4} />
             <h3 className="mt-5 font-display text-2xl">{title}</h3>
             <p className="mt-2 text-sm text-foreground/70 leading-relaxed">{text}</p>
           </div>
