@@ -46,12 +46,12 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col gap-2.5 max-w-md">
-            <div className="inline-flex items-center gap-3 rounded-full border border-white/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
-              <CalendarDays className="size-4 text-foreground/70 shrink-0" />
+            <div className="inline-flex items-center gap-3 rounded-full border border-gold/50 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
+              <CalendarDays className="size-4 text-gold shrink-0" />
               <span className="uppercase">Loja Moema: <strong className="text-foreground">26, 27 e 28 de Junho</strong></span>
             </div>
-            <div className="inline-flex items-center gap-3 rounded-full border border-white/40 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
-              <MapPin className="size-4 text-foreground/70 shrink-0" />
+            <div className="inline-flex items-center gap-3 rounded-full border border-gold/50 bg-card/60 px-5 py-3 text-xs md:text-sm tracking-wider">
+              <MapPin className="size-4 text-gold shrink-0" />
               <span className="uppercase">Endereço: <strong className="text-foreground">Av. Jurucê, 488 – Moema</strong></span>
             </div>
           </div>
