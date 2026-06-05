@@ -23,7 +23,7 @@ export function Hero() {
             <span className="italic text-gold">MJ Home</span>
             <br />
             Toda a loja com até{" "}
-            <span className="italic text-gold">60% OFF</span>.
+            <span className="italic text-gold">60% OFF</span>
           </h1>
 
           <p className="max-w-xl text-base md:text-lg text-foreground/75 leading-relaxed">

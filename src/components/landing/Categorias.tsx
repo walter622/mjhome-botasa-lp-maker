@@ -14,7 +14,7 @@ export function Categorias() {
       <div className="mx-auto max-w-7xl px-5 md:px-10 text-center space-y-6">
         
         <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-          Variedade de móveis <br className="hidden md:block" />e <span className="italic text-gold">decoração</span>.
+          Variedade de móveis <br className="hidden md:block" />e <span className="italic text-gold">decoração</span>
         </h2>
         <div className="gold-divider w-24 mx-auto" />
         <p className="mx-auto max-w-2xl text-base md:text-lg text-foreground/75 leading-relaxed">
