@@ -14,7 +14,7 @@ export function Diferenciais() {
         <div className="max-w-2xl space-y-5">
           
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            O que torna a MJ Home <span className="font-sans font-bold text-foreground">única</span>
+            O que torna a MJ Home <span className="font-bold text-foreground">única</span>
           </h2>
           <div className="gold-divider w-24" />
         </div>

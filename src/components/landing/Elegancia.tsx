@@ -15,7 +15,7 @@ export function Elegancia() {
         <div className="order-1 lg:order-2 space-y-7">
           
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            Sua casa com a <span className="font-sans font-bold text-foreground">elegância</span> que você merece
+            Sua casa com a <span className="font-bold text-foreground">elegância</span> que você merece
           </h2>
           <div className="gold-divider w-24" />
           <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-xl">
