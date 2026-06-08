@@ -15,7 +15,7 @@ export function Atendimento() {
         <div className="order-1 lg:order-2 space-y-7">
           
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            Atendimento <span className="font-bold text-foreground">personalizado</span>
+            Atendimento <span className="highlight-accent">personalizado</span>
           </h2>
           <div className="gold-divider w-24" />
           <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-xl">
