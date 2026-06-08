@@ -33,10 +33,10 @@ export function Hero() {
 
           <h1 className="font-display text-balance text-[2.6rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.02] text-foreground">
             Bota Fora{" "}
-            <span className="italic text-gold">MJ Home</span>
+            <span className="font-bold text-foreground">MJ Home</span>
             <br />
             Toda a loja com até{" "}
-            <span className="italic text-gold">60% OFF</span>
+            <span className="font-bold text-foreground">60% OFF</span>
           </h1>
 
           <p className="max-w-xl text-base md:text-lg text-foreground/75 leading-relaxed">
