@@ -26,7 +26,7 @@ export function Depoimentos() {
         <div className="text-center space-y-5">
           
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            Depoimentos de <span className="italic text-gold">clientes</span>
+            Depoimentos de <span className="font-bold text-foreground">clientes</span>
           </h2>
           <div className="gold-divider w-24 mx-auto" />
         </div>
