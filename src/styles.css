@@ -111,8 +111,6 @@
   font-style: italic;
   color: var(--foreground);
   text-shadow: 0 0 18px color-mix(in oklab, var(--gold) 55%, transparent);
-}
-@utility highlight-accent {
   &::after {
     content: "";
     position: absolute;
