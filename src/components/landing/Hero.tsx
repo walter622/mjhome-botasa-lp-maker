@@ -32,7 +32,7 @@ export function Hero() {
         <div className="space-y-8">
 
           <h1 className="font-display text-balance text-[2.6rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1.02] text-foreground">
-            Bota Fora<br />
+            Bota Fora{" "}
             <span className="font-sans font-bold text-foreground text-[0.85em]">MJ Home</span>
             <br />
             Toda a loja com até{" "}
