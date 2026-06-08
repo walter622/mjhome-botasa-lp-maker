@@ -103,3 +103,23 @@
 @utility text-balance {
   text-wrap: balance;
 }
+
+@utility highlight-accent {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--foreground);
+  text-shadow: 0 0 18px color-mix(in oklab, var(--gold) 55%, transparent);
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.08em;
+    height: 2px;
+    background: var(--gold);
+    border-radius: 2px;
+  }
+}
+

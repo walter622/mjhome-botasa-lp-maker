@@ -25,7 +25,7 @@ export function Jornada() {
       <div className="mx-auto max-w-6xl px-5 md:px-10 text-center space-y-6">
         <span className="text-[10px] tracking-[0.4em] uppercase text-foreground/55">Desde 2009</span>
         <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-          Nossa jornada: <span className="font-bold text-foreground">15 anos</span> de história e confiança
+          Nossa jornada: <span className="highlight-accent">15 anos</span> de história e confiança
         </h2>
         <div className="gold-divider w-24 mx-auto" />
         <p className="mx-auto max-w-3xl text-base md:text-lg text-foreground/75 leading-relaxed">
