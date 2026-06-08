@@ -62,7 +62,7 @@
   --input: oklch(0.72 0 0 / 0.3);
   --ring: oklch(0.72 0 0);
 
-  --gold: oklch(0.68 0.12 65); /* #cc9145 — used sparingly as accent */
+  --gold: #74282d; /* accent color */
   --gold-soft: oklch(0.72 0 0); /* #afafaf */
 
   --whatsapp: oklch(0.68 0.18 145);
