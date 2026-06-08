@@ -45,7 +45,7 @@ export function Lojas() {
         <div className="text-center space-y-5 mb-14">
           
           <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            Endereços das lojas <span className="highlight-accent">MJ Home</span>
+            Endereços das lojas <span className="font-bold text-foreground">MJ Home</span>
           </h2>
           <div className="gold-divider w-24 mx-auto" />
         </div>

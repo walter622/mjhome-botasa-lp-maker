@@ -18,7 +18,7 @@ export function Footer() {
             <img src={botaForaLogo.url} alt="Bota Fora MJ Home" className="h-16 md:h-20 w-auto" />
           </div>
           <h3 className="font-display text-3xl md:text-5xl text-balance leading-tight max-w-2xl mx-auto">
-            Garanta sua peça no <span className="highlight-accent">Bota Fora</span>
+            Garanta sua peça no <span className="font-bold text-foreground">Bota Fora</span>
           </h3>
           <CTAButton size="lg" />
         </div>
