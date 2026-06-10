@@ -3,15 +3,15 @@ import imgAsset from "@/assets/entrega-caminhao.webp.asset.json";
 
 export function Entrega() {
   return (
-    <section className="py-20 md:py-28 bg-card/40 border-y border-border/60">
+    <section className="py-20 md:py-28 bg-[#e5e5e5] border-y border-border/60">
       <div className="mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="space-y-7">
           
-          <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-            Entrega própria, <span className="italic text-gold">rápida</span> e segura
+          <h2 className="font-display text-balance text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-black">
+            Entrega própria, <span className="italic font-bold">rápida e segura</span>
           </h2>
-          <div className="gold-divider w-24" />
-          <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-xl">
+          <div className="w-24 h-px bg-black/30" />
+          <p className="text-base md:text-lg text-black/75 leading-relaxed max-w-xl">
             Nossa equipe é treinada para garantir que cada peça chegue perfeita, com montagem
             profissional e sem surpresas.
           </p>
