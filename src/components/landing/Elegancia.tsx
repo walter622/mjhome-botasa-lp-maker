@@ -3,7 +3,7 @@ import img from "@/assets/sala-elegancia.jpg";
 
 export function Elegancia() {
   return (
-    <section id="sobre" className="py-20 md:py-28 bg-[#1a1a1a]">
+    <section id="sobre" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="relative order-2 lg:order-1">
           <div className="aspect-[7/5] rounded-2xl overflow-hidden border border-border">
@@ -18,7 +18,7 @@ export function Elegancia() {
             Sua casa com a <span className="font-bold text-foreground">elegância</span> que você merece
           </h2>
           <div className="gold-divider w-24" />
-          <p className="text-base md:text-lg text-foreground/90 leading-relaxed max-w-xl">
+          <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-xl">
             Com móveis de alto padrão, a pronta-entrega ou personalizados sob encomenda.
             Somente durante o <strong className="text-foreground">Bota Fora MJ Home</strong> com
             até 60% OFF em toda a loja, nos dias <strong className="text-foreground">26, 27 e 28 de Junho</strong>.
