@@ -3,7 +3,7 @@ import img from "@/assets/sala-elegancia.jpg";
 
 export function Elegancia() {
   return (
-    <section id="sobre" className="py-20 md:py-28">
+    <section id="sobre" className="py-20 md:py-28 bg-[#1a1a1a]">
       <div className="mx-auto max-w-7xl px-5 md:px-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div className="relative order-2 lg:order-1">
           <div className="aspect-[7/5] rounded-2xl overflow-hidden border border-border">
