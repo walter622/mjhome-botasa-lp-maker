@@ -9,7 +9,7 @@ const ITENS = [
 
 export function Diferenciais() {
   return (
-    <section id="diferenciais" className="py-20 md:py-28 bg-card border-y border-border/60">
+    <section id="diferenciais" className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 md:px-10">
         <div className="max-w-2xl space-y-5">
           
@@ -23,7 +23,7 @@ export function Diferenciais() {
           {ITENS.map(({ icon: Icon, title, text }) => (
             <div
               key={title}
-              className="p-7 rounded-2xl border border-border bg-background/40 hover:bg-background/60 transition-colors min-h-52"
+              className="p-7 rounded-2xl border border-border bg-card/60 hover:bg-card transition-colors min-h-52"
             >
               <Icon className="size-8 text-gold" strokeWidth={1.3} />
               <h3 className="mt-5 font-display text-xl leading-tight">{title}</h3>
