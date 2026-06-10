@@ -17,7 +17,7 @@ export function Ofertas() {
           
           <h2 className="font-display text-balance text-4xl md:text-6xl lg:text-7xl leading-[1.02]">
             Ofertas exclusivas do <br className="hidden md:block" />
-            <span className="font-bold text-foreground">Bota Fora</span>
+            <span className="italic text-gold">Bota Fora</span>
           </h2>
           <div className="gold-divider w-24 mx-auto" />
 
